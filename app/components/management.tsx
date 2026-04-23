@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Management from "../assets/Management.jpg";
-import { FaBoltLightning } from "react-icons/fa6";
 import Bolt from '../assets/bolt.png'
 
 const management = () => {
@@ -37,7 +36,7 @@ const management = () => {
           ].map((benefit, index) => (
             <li key={index} className=" flex items-center bg-(--Purple40) px-2 py-1 rounded-lg gap-2">
               {/* <FaBoltLightning /> */}
-              <Image src={Bolt} alt='Bolt' width={32} height={32} />
+              <Image src={Bolt} alt='Bolt icon' width={32} height={32} />
               <p>{benefit}</p>
             </li>
           ))}

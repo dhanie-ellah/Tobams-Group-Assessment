@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import LearnImage from "../assets/learn-with-ceo.jpg";
 import Bolt from "../assets/bolt (2).png";
 import { HiArrowUpRight } from "react-icons/hi2";

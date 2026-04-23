@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Logo from "../assets/Seecondary Logo copy 1.png";
 import { FaBars, FaUser } from "react-icons/fa6";
@@ -10,7 +9,7 @@ const nav = () => {
       {/* Mobile Navigation Bar */}
       <nav className=" flex items-center justify-between px-6 py-4 xl:hidden">
         {/* Logo */}
-        <Image src={Logo} alt="Logo" width={125} height={50} />
+        <Image src={Logo} alt="Tobams Group Logo" width={125} height={50} />
         {/* Hamburger Menu Icon */}
         <FaBars
           className=" bg-(--main-text) text-white p-1 rounded-md"
@@ -23,7 +22,7 @@ const nav = () => {
         {/* Top navbar section */}
         <div className=" border-b px-16 py-6 border-(--Purple)/10 flex items-center justify-between">
           {/* logo */}
-          <Image src={Logo} alt="Logo" />
+          <Image src={Logo} alt="Tobams Group Logo" />
           {/* buttons */}
           <div className=" flex items-center gap-6">
             <button className=" rounded-sm px-4 py-2 bg-(--primary) text-white flex items-center gap-2">

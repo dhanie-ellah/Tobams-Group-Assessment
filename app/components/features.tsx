@@ -109,7 +109,7 @@ const Features = () => {
             <ul className="space-y-1.5 xl:px-8">
               {feature.list.map((item, i) => (
                 <li key={i} className="flex items-center gap-3.5 xl:text-xl">
-                  <Image src={Bolt} alt='Bolt' width={12} height={12} />
+                  <Image src={Bolt} alt='Bolt icon' width={12} height={12} />
                   {item}
                 </li>
               ))}

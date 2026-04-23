@@ -1,4 +1,3 @@
-import React from "react";
 import { HiArrowUpRight } from "react-icons/hi2";
 import { MdKeyboardArrowRight } from "react-icons/md";
 

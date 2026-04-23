@@ -26,7 +26,7 @@ const footer = () => {
       <section className=" bg-(--footerPurple) text-white p-6 space-y-5 xl:px-16 xl:py-8">
         <div className=" space-y-5 xl:flex xl:gap-28 xl:justify-between">
           <div className=" space-y-6 xl:w-[30%]">
-            <Image src={Logo} alt="Logo" width={200} height={100} />
+            <Image src={Logo} alt="Tobams Group Logo" width={200} height={100} />
             <p>
               Tobams Group is an innovative consultancy firm reshaping the
               future of tech talent development in Africa, specializing in
@@ -34,56 +34,56 @@ const footer = () => {
               global perspective.
             </p>
             <div className=" flex items-center gap-5">
-              <div className=" w-10 h-10 bg-white text-(--main-text) text-2xl rounded-full flex items-center justify-center">
+              <a href="#" className=" w-10 h-10 bg-white text-(--main-text) text-2xl rounded-full flex items-center justify-center">
                 <FaLinkedinIn />
-              </div>
-              <div className=" w-10 h-10 bg-white text-(--main-text) text-2xl rounded-full flex items-center justify-center">
+              </a>
+              <a href="#" className=" w-10 h-10 bg-white text-(--main-text) text-2xl rounded-full flex items-center justify-center">
                 <FaInstagram />
-              </div>
-              <div className=" w-10 h-10 bg-white text-(--main-text) text-2xl rounded-full flex items-center justify-center">
+              </a>
+              <a href="#" className=" w-10 h-10 bg-white text-(--main-text) text-2xl rounded-full flex items-center justify-center">
                 <FaXTwitter />
-              </div>
+              </a>
             </div>
           </div>
           {/* what we do section */}
           <div className=" space-y-4 xl:text-nowrap">
             <h4 className=" font-bold text-xl">What We Do</h4>
-            <div className=" space-y-3">
-              <p>Sustainability Services</p>
-              <p>Strategy Planning and Implementation</p>
-              <p>Tech Talent Solutions</p>
-              <p>Training and Development</p>
-              <p>IT Consulting Services</p>
-              <p>Social Impact</p>
+            <div className=" space-y-3 flex flex-col">
+              <a href="#">Sustainability Services</a>
+              <a href="#">Strategy Planning and Implementation</a>
+              <a href="#">Tech Talent Solutions</a>
+              <a href="#">Training and Development</a>
+              <a href="#">IT Consulting Services</a>
+              <a href="#">Social Impact</a>
             </div>
           </div>
           {/* company section */}
           <div className="space-y-4 xl:text-nowrap">
             <h4 className=" font-bold text-xl">Company</h4>
-            <div className=" space-y-3">
-              <p>About</p>
-              <p>Jobs</p>
-              <p>Projects</p>
-              <p>Our Founder</p>
-              <p>Business Model</p>
-              <p>The Team</p>
-              <p>Contact Us</p>
-              <p>Blog</p>
-              <p>FAQs</p>
-              <p>Testimonials</p>
+            <div className=" space-y-3 flex flex-col">
+              <a href="#">About</a>
+              <a href="#">Jobs</a>
+              <a href="#">Projects</a>
+              <a href="#">Our Founder</a>
+              <a href="#">Business Model</a>
+              <a href="#">The Team</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Blog</a>
+              <a href="#">FAQs</a>
+              <a href="#">Testimonials</a>
             </div>
           </div>
           {/* solution section */}
           <div className="space-y-4 xl:text-nowrap">
             <h4 className=" font-bold text-xl">Solution</h4>
-            <div className=" space-y-3">
-              <p>Tobams Group Academy</p>
-              <p>Help a Tech Talent</p>
-              <p>Campus Ambassadors Program</p>
-              <p>Join Our Platform</p>
-              <p>Pricing</p>
-              <p>Book a Consultation</p>
-              <p>Join Our Slack Community</p>
+            <div className=" space-y-3 flex flex-col">
+              <a href="#">Tobams Group Academy</a>
+              <a href="#">Help a Tech Talent</a>
+              <a href="#">Campus Ambassadors Program</a>
+              <a href="#">Join Our Platform</a>
+              <a href="#">Pricing</a>
+              <a href="#">Book a Consultation</a>
+              <a href="#">Join Our Slack Community</a>
             </div>
           </div>
         </div>
@@ -95,14 +95,14 @@ const footer = () => {
             <div className=" space-y-4">
               <h4 className=" text-xl font-bold">Contact Information</h4>
               <div className=" space-y-2.5">
-                <div className=" flex gap-4 items-center">
+                <a href="mailto:#" className=" flex gap-4 items-center">
                   <FaEnvelope className=" text-2xl text-(--Secondary)" />
                   <p>theteam@tobamsgroup.com</p>
-                </div>
-                <div className=" flex gap-4 items-center">
+                </a>
+                <a href="tel:#" className=" flex gap-4 items-center">
                   <FaPhone className=" text-2xl text-(--Secondary)" />
                   <p>+447886600748</p>
-                </div>
+                </a>
               </div>
             </div>
             <div className=" hidden xl:block bg-(--Secondary)/10 w-0.5"></div>

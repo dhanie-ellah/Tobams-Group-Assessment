@@ -1,11 +1,9 @@
-import React from 'react'
 import Image from 'next/image'
 import HeroImage from '../assets/Hero.jpg'
-import { nunito } from '../layout'
 
 const hero = () => {
   return (
-    <section className="relative w-full overflow-hidden">
+    <header className="relative w-full overflow-hidden">
       {/* Background image */}
       <Image 
         src={HeroImage} 
@@ -27,7 +25,7 @@ const hero = () => {
           Book a Consultation
         </button>
       </div>
-    </section>
+    </header>
   )
 }
 
