@@ -8,7 +8,7 @@ const nav = () => {
   return (
     <section>
       {/* Mobile Navigation Bar */}
-      <nav className=" flex items-center justify-between px-6 py-4 md:hidden">
+      <nav className=" flex items-center justify-between px-6 py-4 xl:hidden">
         {/* Logo */}
         <Image src={Logo} alt="Logo" width={125} height={50} />
         {/* Hamburger Menu Icon */}

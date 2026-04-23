@@ -7,9 +7,9 @@ const learning = () => {
   return (
     <section className=" bg-(--primary)/10 p-6 space-y-6 xl:px-16 xl-py-12 xl:grid xl:grid-cols-8 xl:gap-20 items-center justify-center">
       {/* mobile title */}
-      <p className=" text-(--primary) text-2xl font-semibold xl:hidden">Learning Management System</p>
+      <p className=" text-(--primary) text-2xl font-semibold xl:hidden text-center">Learning Management System</p>
       {/* image */}
-      <div className=" relative w-96 h-96 xl:w-115 xl:h-115 rounded-full overflow-hidden flex items-center justify-center xl:col-span-3">
+      <div className=" relative w-96 h-96 xl:w-115 xl:h-115 rounded-full overflow-hidden flex items-center justify-center m-auto xl:col-span-3 mb-6 xl:mb-0">
         <Image
           src={Learning}
           alt="A man and a woman smiling in a cheerful way"
