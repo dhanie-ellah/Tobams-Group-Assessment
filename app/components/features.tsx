@@ -99,8 +99,8 @@ const Features = () => {
             />
           </div>
 
-          <div className="space-y-5 text-[var(--subdued)] xl:w-1/2">
-            <p className="text-4xl text-[var(--main-text)] font-semibold hidden xl:block">
+          <div className="space-y-5 text-(--subdued) xl:w-1/2">
+            <p className="text-4xl text-(--main-text) font-semibold hidden xl:block">
               {feature.title}
             </p>
             <p className="xl:text-xl">{feature.description}</p>
