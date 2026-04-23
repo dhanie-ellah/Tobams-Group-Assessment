@@ -6,12 +6,16 @@ import Bolt from '../assets/bolt.png'
 const management = () => {
   return (
     <section className=" m-6 xl:m-16 px-5 py-4 xl:p-10 bg-(--Purple) text-white rounded-3xl space-y-5 xl:grid xl:grid-cols-2 xl:gap-12">
+      {/* mobile title */}
       <h4 className="text-lg xl:hidden">Management Development Program</h4>
       <div className=" overflow-hidden rounded-lg rounded-br-none relative">
+        {/* mobile image */}
         <Image src={Management} alt="Management Development Program" className=" xl:hidden" />
+        {/* desktop image */}
         <Image src={Management} alt="Management Development Program" fill className=" hidden xl:block object-cover object-center" />
       </div>
       <div className="space-y-8">
+        {/* desktop title */}
         <h4 className="text-5xl hidden xl:block">Management Development Program</h4>
         <p className=" text-xl">
           Tobams Group offers a comprehensive Management Development Program

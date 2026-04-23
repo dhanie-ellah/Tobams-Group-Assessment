@@ -6,7 +6,9 @@ import { HiArrowUpRight } from "react-icons/hi2";
 const learning = () => {
   return (
     <section className=" bg-(--primary)/10 p-6 space-y-6 xl:px-16 xl-py-12 xl:grid xl:grid-cols-8 xl:gap-20 items-center justify-center">
+      {/* mobile title */}
       <p className=" text-(--primary) text-2xl font-semibold xl:hidden">Learning Management System</p>
+      {/* image */}
       <div className=" relative w-96 h-96 xl:w-115 xl:h-115 rounded-full overflow-hidden flex items-center justify-center xl:col-span-3">
         <Image
           src={Learning}
@@ -16,6 +18,7 @@ const learning = () => {
         />
       </div>
       <div className=" bg-(--primary)/10 p-6 rounded-lg space-y-6 xl:col-span-5 xl:w-fit">
+      {/* desktop title */}
         <p className=" text-(--primary) text-5xl hidden font-semibold xl:block">
           Learning Management System
         </p>
@@ -29,6 +32,7 @@ const learning = () => {
           interactive learning materials, individuals can enhance their skills
           and stay ahead in today's competitive tech landscape.
         </p>
+        {/* course list */}
         <div className=" space-y-3">
           <p className=" text-(--primary) font-bold text-lg">Some of our courses include:</p>
           <ul className=" list-disc list-inside space-y-3 xl:flex xl:flex-wrap xl:gap-x-6">
@@ -40,6 +44,7 @@ const learning = () => {
             <li>Business Model</li>
           </ul>
         </div>
+        {/* CTA */}
         <button className=" flex items-center gap-2 bg-(--primary) text-white px-8 py-4.5 rounded-sm">
             Learn More <HiArrowUpRight className=" "/>
         </button>

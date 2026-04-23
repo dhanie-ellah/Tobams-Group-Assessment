@@ -80,9 +80,10 @@ const Features = () => {
           key={index}
           className="space-y-6 xl:flex xl:items-center xl:odd:flex-row xl:even:flex-row-reverse xl:gap-16"
         >
+          {/* mobile title */}
           <p className="text-2xl font-semibold xl:hidden">{feature.title}</p>
 
-          {/* Use style prop for dynamic border radius */}
+          {/* Image - I used style prop for dynamic border radius because I was unable to achieve it with tailwindcss */}
           <div
             className="xl:w-1/2 overflow-hidden"
             style={{
@@ -98,8 +99,9 @@ const Features = () => {
               className="w-full h-auto object-cover"
             />
           </div>
-
+            {/* text content */}
           <div className="space-y-5 text-(--subdued) xl:w-1/2">
+          {/* desktop title */}
             <p className="text-4xl text-(--main-text) font-semibold hidden xl:block">
               {feature.title}
             </p>

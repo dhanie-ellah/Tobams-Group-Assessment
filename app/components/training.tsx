@@ -34,7 +34,7 @@ const training = () => {
         <h4 className=" text-2xl xl:text-5xl text-(--primary) font-semibold">
           Training The Consultant
         </h4>
-        <p className=" text-(--primary) text-lg xl:text-xl font-semibold">
+        <p className=" text-(--primary) xl:text-xl font-semibold">
           Maximize Your Potential as a Certified Trainer:
         </p>
       </div>
@@ -56,7 +56,8 @@ const training = () => {
         ))}
       </div>
       <button className=" flex items-center gap-2 bg-(--primary) text-white px-6 py-3.5 rounded-lg">
-        Learn More <MdKeyboardArrowRight className=" text-3xl xl:hidden" /> <HiArrowUpRight className="hidden xl:block "/>
+        Learn More <MdKeyboardArrowRight className=" text-3xl xl:hidden" />{" "}
+        <HiArrowUpRight className="hidden xl:block " />
       </button>
     </div>
   );

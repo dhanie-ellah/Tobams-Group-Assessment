@@ -8,12 +8,14 @@ const learn = () => {
   return (
     <div className=" bg-white p-6 xl:p-16">
       <div className=" bg-(--pink) px-4 py-6 xl:p-10 rounded-xl xl:rounded-2xl space-y-5">
+        {/* header section */}
         <div className=" space-y-2">
           <p className=" text-(--Blue) xl:text-2xl">Learning With Our CEO:</p>
           <h4 className=" text-(--primary) text-xl xl:text-4xl font-semibold italic">
             Transformation Hub With Jite Newton
           </h4>
         </div>
+        {/* description */}
         <p className=" xl:text-xl">
           Transformation Hub with Jite Newton is a flagship webinar series
           curated by the CEO, Dr. Jite Newton. Designed to elevate career
@@ -24,6 +26,7 @@ const learn = () => {
           learning experience to unlock your full potential and drive success in
           your endeavours.
         </p>
+        {/* image and features */}
         <div className=" space-y-5 xl:flex xl:items-center xl:gap-8">
           <Image
             src={LearnImage}
@@ -49,6 +52,7 @@ const learn = () => {
                 </div>
               ))}
             </div>
+            {/* CTA */}
             <button className=" flex items-center gap-2 bg-(--primary) text-white px-6 py-3.5 rounded-sm">
               Learn More <HiArrowUpRight className=" " />
             </button>

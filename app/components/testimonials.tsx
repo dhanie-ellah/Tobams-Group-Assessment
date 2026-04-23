@@ -65,7 +65,7 @@ const Testimonials = () => {
     const handleResize = () => {
       setCardsToShow(window.innerWidth >= 1280 ? 3 : 1);
     };
-    handleResize(); // set on mount
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -124,6 +124,7 @@ const Testimonials = () => {
 
       {/* Buttons */}
       <div className="flex items-center justify-end gap-3">
+        {/* previous button */}
         <button
           className="text-(--Secondary) bg-(--Secondary)/10 w-10 h-10 rounded-sm flex items-center justify-center hover:bg-(--Secondary)/20 transition"
           onClick={prevSlide}
@@ -131,6 +132,7 @@ const Testimonials = () => {
         >
           <MdOutlineKeyboardArrowLeft className="text-xl" />
         </button>
+        {/* next button */}
         <button
           className="text-(--Secondary) bg-(--Secondary)/10 w-10 h-10 rounded-sm flex items-center justify-center hover:bg-(--Secondary)/20 transition"
           onClick={nextSlide}
