@@ -8,7 +8,7 @@ const learning = () => {
       {/* mobile title */}
       <p className=" text-(--primary) text-2xl font-semibold xl:hidden text-center">Learning Management System</p>
       {/* image */}
-      <div className=" relative w-96 h-96 xl:w-115 xl:h-115 rounded-full overflow-hidden flex items-center justify-center m-auto xl:col-span-3 mb-6 xl:mb-0">
+      <div className=" relative w-80 h-80 md:w-96 md:h-96 xl:w-115 xl:h-115 rounded-full overflow-hidden flex items-center justify-center m-auto xl:col-span-3 mb-6 xl:mb-0">
         <Image
           src={Learning}
           alt="A man and a woman smiling in a cheerful way"
